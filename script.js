@@ -23,3 +23,9 @@ console.log(length); // to display the last element of an array
 
 let popped = rows.pop(); // removes the last element from an array and returns it
 console.log(popped);
+
+let shifted = rows.shift(); // removes and returns the first element of an array
+console.log(shifted);
+
+let unshifted = rows.unshift("Ragosh"); // adds an element to the beginning of an array
+console.log(unshifted);
